@@ -1,0 +1,27 @@
+.list{
+    list-style: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.listitem{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+.sidebartitle{
+    background: linear-gradient(90deg, #0be7f7 0%, #4a03f0 100%);
+    color: white;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.searchbar{
+    margin: auto;
+}
+
+p{
+    color: rgb(199, 198, 198);
+}

@@ -1,0 +1,56 @@
+.blocks{
+    margin-top: 5%;
+}
+
+.exams{
+    background-color: rgb(106, 214, 241);
+    color: rgb(3, 3, 214);
+    border-radius: 10px;
+    padding: 15%;
+    font-size: 34.5px;
+    font-weight: bold;
+}
+
+.block{
+    background-color: rgb(106, 214, 241);
+    color: rgb(3, 3, 214);
+    border-radius: 10px;
+    padding: 15%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 1000px) {
+    .exams{
+        font-size: 20px;
+    }
+    .block{
+        font-size: 25px;
+    }
+    .title{
+        font-size: 10px;
+        color:black;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 700px) {
+    .exams{
+        font-size: 8px;
+    }
+    .title{
+        
+        font-size: 8px;
+        color:black;
+    }
+    .block{
+        font-size: 10px;
+    }
+  }
