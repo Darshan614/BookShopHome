@@ -16,6 +16,7 @@ function Card(prop) {
             <s>{props.originalprice}</s>
           </span>
         </div>
+        <div className={classes.discount}>{props.discount}</div>
       </div>
     </div>
   );
@@ -29,6 +30,7 @@ function Card(prop) {
           price={card.price}
           content={card.content}
           imgUrl={card.imgUrl}
+          discount={card.discount}
         />
       ))}
     </div>

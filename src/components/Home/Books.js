@@ -1,14 +1,15 @@
 import React from 'react';
 import Card from './Card';
-import classes from './FeaturedNovels.module.css';
+import classes from './Books.module.css';
 
-function FeaturedNovels(){
+function Books(){
     const noveldata = [
         {
           id: 1,
           title: "Zero to One Notes By Peter Thiel",
           price: "275",
           originalprice: "550",
+          discount: "50.0 % off",
           imgUrl: "/Zero to One Notes By Peter Thiel.PNG"
         },
         {
@@ -16,6 +17,7 @@ function FeaturedNovels(){
           title: "Harry Potter & The cursed Child",
           price: 449,
           originalprice: "889",
+          discount: "50.0 % off",
           imgUrl: "/Harry Potter & The cursed Child.PNG"
         },
         {
@@ -23,6 +25,7 @@ function FeaturedNovels(){
           title: "Dollar Bahu by Sudha Murthy",
           price: 150,
           originalprice: "250",
+          discount: "50.0 % off",
           imgUrl: "/Dollar Bahu by Sudha Murthy.PNG"
         },
         {
@@ -30,6 +33,7 @@ function FeaturedNovels(){
           title: "Will you still love me? by Ravinder",
           price: 139,
           originalprice: "199",
+          discount: "50.0 % off",
           imgUrl: "/Will you still love me by Ravinder.PNG"
         },
         {
@@ -37,6 +41,7 @@ function FeaturedNovels(){
           title: "Hyperfocus by Chris Bailey",
           price: 250,
           originalprice: "1299",
+          discount: "50.0 % off",
           imgUrl: "/Hyperfocus by Chris Bailey.PNG"
         },
         {
@@ -44,6 +49,7 @@ function FeaturedNovels(){
           title: "Sapiens A brief History of ",
           price: 299,
           originalprice: "599",
+          discount: "50.0 % off",
           imgUrl: "/Sapiens A brief History of.PNG"
         }
       ];
@@ -53,6 +59,7 @@ function FeaturedNovels(){
           title: "Oswaal CBSE Class 10 English",
           price: "275",
           originalprice: "550",
+          discount: "50.0 % off",
           imgUrl: "/Oswaal CBSE Class 10 English.PNG"
         },
         {
@@ -60,6 +67,7 @@ function FeaturedNovels(){
           title: "Oswaal CBSE Class 10 Math",
           price: 449,
           originalprice: "889",
+          discount: "50.0 % off",
           imgUrl: "/Oswaal CBSE Class 10 Math.PNG"
         },
         {
@@ -67,6 +75,7 @@ function FeaturedNovels(){
           title: "Oswaal CBSE Class 11 MCQ",
           price: 150,
           originalprice: "250",
+          discount: "50.0 % off",
           imgUrl: "/Oswaal CBSE Class 11 MCQ.PNG"
         },
         {
@@ -74,6 +83,7 @@ function FeaturedNovels(){
           title: "Educart CBSE Term 1 Sample Papers",
           price: 139,
           originalprice: "199",
+          discount: "50.0 % off",
           imgUrl: "/Educart CBSE Term 1 Sample Papers.PNG"
         },
         {
@@ -81,6 +91,7 @@ function FeaturedNovels(){
           title: "Oswaal CBSE Class 10 Term 1 MCQ",
           price: 250,
           originalprice: "1299",
+          discount: "50.0 % off",
           imgUrl: "/Oswaal CBSE Class 10 Term 1 MCQ.PNG"
         },
         {
@@ -88,6 +99,7 @@ function FeaturedNovels(){
           title: "Mastermind CBSE Term 1 Class 12",
           price: 299,
           originalprice: "599",
+          discount: "50.0 % off",
           imgUrl: "/Mastermind CBSE Term 1 Class 12.PNG"
         }
       ];
@@ -97,6 +109,7 @@ function FeaturedNovels(){
           title: "ISC Physics Class 12 Kumar Mittal",
           price: "275",
           originalprice: "550",
+          discount: "50.0 % off",
           imgUrl: "/ISC Physics Class 12 Kumar Mittal.PNG"
         },
         {
@@ -104,6 +117,7 @@ function FeaturedNovels(){
           title: "ISC Chemistry Class 11 HC Srivastava",
           price: 449,
           originalprice: "889",
+          discount: "50.0 % off",
           imgUrl: "/ISC Chemistry Class 11 HC Srivastava.PNG"
         },
         {
@@ -111,6 +125,7 @@ function FeaturedNovels(){
           title: "ISC Mathematics Class 12",
           price: 150,
           originalprice: "250",
+          discount: "50.0 % off",
           imgUrl: "/ISC Mathematics Class 12.PNG"
         },
         {
@@ -118,6 +133,7 @@ function FeaturedNovels(){
           title: "ISC Class 11 Mathematics ML ",
           price: 139,
           originalprice: "199",
+          discount: "50.0 % off",
           imgUrl: "/ISC Class 11 Mathematics ML.PNG"
         },
         {
@@ -125,6 +141,7 @@ function FeaturedNovels(){
           title: "Nootan ISC Chemistry Class 12",
           price: 250,
           originalprice: "1299",
+          discount: "50.0 % off",
           imgUrl: "/Nootan ISC Chemistry Class 12.PNG"
         }
       ];
@@ -141,4 +158,4 @@ function FeaturedNovels(){
     )
 }
 
-export default FeaturedNovels;
+export default Books;
