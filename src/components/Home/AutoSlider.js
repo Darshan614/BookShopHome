@@ -23,7 +23,7 @@ function AutoSlider() {
           <div class="carousel-item active">
             <div className={classes.imagee}>
             <img
-              src="/Chemistry.png"
+              src="/Chemistry.PNG"
               width="100"
               height="350"
               class="d-block w-100"
@@ -33,7 +33,7 @@ function AutoSlider() {
           </div>
           <div class="carousel-item">
             <img
-              src="/Sellbooks.png"
+              src="/Sellbooks.PNG"
               width="100"
               height="350"
               class="d-block w-100"
