@@ -8,7 +8,7 @@ function CategoryBlocks() {
           <div class="col">
             <div class="card h-20 border-0">
               {/* <img src="..." class="card-img-top" alt="10"></img> */}
-              <div className={classes.block}>IX</div>
+              <div className={classes.block}>9</div>
               <div>
                 <p className={classes.title}>Class IX</p>
               </div>
@@ -17,7 +17,7 @@ function CategoryBlocks() {
           <div class="col">
             <div class="card h-20 border-0">
               {/* <img src="..." class="card-img-top" alt="10"></img> */}
-              <div className={classes.block}>X</div>
+              <div className={classes.block}>10</div>
               <div>
                 <p className={classes.title}>Class X</p>
               </div>
@@ -26,7 +26,7 @@ function CategoryBlocks() {
           <div class="col">
             <div class="card h-20 border-0">
               {/* <img src="..." class="card-img-top" alt="10"></img> */}
-              <div className={classes.block}>XI</div>
+              <div className={classes.block}>11</div>
               <div>
                 <p className={classes.title}>Class XI</p>
               </div>
@@ -35,7 +35,7 @@ function CategoryBlocks() {
           <div class="col">
             <div class="card h-100 border-0">
               {/* <img src="..." class="card-img-top" alt="9"></img> */}
-              <div className={classes.block}>XII</div>
+              <div className={classes.block}>12</div>
               <div>
                 <p className={classes.title}>Class XII</p>
               </div>
