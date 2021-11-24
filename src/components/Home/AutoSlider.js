@@ -42,7 +42,7 @@ function AutoSlider() {
           </div>
           <div class="carousel-item">
             <img
-              src="/Accountancy.png"
+              src="/Accountancy.PNG"
               width="100"
               height="350"
               class="d-block w-100"
@@ -51,7 +51,7 @@ function AutoSlider() {
           </div>
           <div class="carousel-item">
             <img
-              src="/Maths.png"
+              src="/Maths.PNG"
               width="100"
               height="350"
               class="d-block w-100"
