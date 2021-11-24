@@ -21,40 +21,44 @@ function AutoSlider() {
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div className={classes.imagee}>
+        
             <img
+              className={classes.photo1}
               src="/Chemistry.PNG"
-              width="100"
-              height="350"
-              class="d-block w-100"
+              // width="100"
+              // height="350"
+              // class="d-block w-100"
               alt="Romantic Novels"
             ></img>
-            </div>
+          
           </div>
           <div class="carousel-item">
             <img
               src="/Sellbooks.PNG"
-              width="100"
-              height="350"
-              class="d-block w-100"
-              alt="Fiction Novels"
+               width="100%"
+               height="250"
+              //  class="d-block w-100 "
+               className={classes.photo1}
+               alt="Fiction Novels"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src="/Accountancy.PNG"
-              width="100"
-              height="350"
-              class="d-block w-100"
+              // width="100"
+              // height="350"
+              // class="d-block w-100"
+              className={classes.photo1}
               alt="Thriller"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src="/Maths.PNG"
-              width="100"
-              height="350"
-              class="d-block w-100"
+              // width="100"
+              // height="350"
+              // class="d-block w-100"
+              className={classes.photo1}
               alt="Thriller"
             ></img>
           </div>

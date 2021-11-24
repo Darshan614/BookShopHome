@@ -9,16 +9,16 @@ function NovelCategory(){
         <div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/novels1.png" width="100" height="350" class="d-block w-100" alt="..."></img>
+      <img src="/novels1.PNG" className={classes.photo1} alt="..."></img>
     </div>
     <div class="carousel-item">
-      <img src="/novels2.png" width="100" height="350" class="d-block w-100" alt="..."></img>
+      <img src="/novels2.PNG" className={classes.photo1} alt="..."></img>
     </div>
     <div class="carousel-item">
-      <img src="/novels3.png" width="100" height="350" class="d-block w-100" alt="..."></img>
+      <img src="/novels3.PNG" className={classes.photo1} alt="..."></img>
     </div>
     <div class="carousel-item">
-      <img src="/novels4.png" width="100" height="350" class="d-block w-100" alt="..."></img>
+      <img src="/novels4.PNG" className={classes.photo1} alt="..."></img>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
